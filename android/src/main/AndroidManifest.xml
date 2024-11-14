@@ -1,6 +1,14 @@
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="ch.milosz.reactnative">
+    package="ch.milosz.reactnative">
 
+    <activity
+        android:name=".RNZoomUsActivity"
+        android:exported="true"
+        android:hardwareAccelerated="true"
+        android:launchMode="singleTask">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
 </manifest>
-  
